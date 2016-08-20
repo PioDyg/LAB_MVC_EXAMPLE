@@ -1,5 +1,7 @@
 <?php
 
+include 'views/head.php';
+
 include 'UsersController.php';
 $USERSCTRL=new UserController();
 
@@ -18,3 +20,4 @@ switch($action){
         break;
 }
 
+include 'views/foot.php';

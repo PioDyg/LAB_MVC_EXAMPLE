@@ -7,7 +7,7 @@ class UserController {
         $USERS=new UserModel();
         $userList=$USERS->getList();
                 
-        include 'usersListView.php';
+        include 'views/users/usersListView.php';
     }
     
     public function registerUser(){
